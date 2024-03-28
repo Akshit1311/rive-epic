@@ -1,8 +1,8 @@
-import { useRive, useStateMachineInput } from "@rive-app/react-canvas";
+import { useRive } from "@rive-app/react-canvas";
 
 const RiveComp = () => {
   const { rive, RiveComponent } = useRive({
-    src: "http://localhost:3000/onboard.riv",
+    src: "/onboard.riv",
     // src: "http://localhost:3000/onboarding_test.riv",
     stateMachines: "State Machine 1",
     autoplay: true,
